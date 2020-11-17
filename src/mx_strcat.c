@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../inc/header.h"
 
 char *mx_strcat(char *s1, const char *s2){
     for(int i = 0; i < mx_strlen(s2); i++)

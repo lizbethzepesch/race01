@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../inc/header.h"
 int mx_counter_range(int n) {
     if (n == 0) 
         return 1;

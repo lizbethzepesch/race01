@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../inc/header.h"
 
 char *mx_strcpy(char *dst, const char *src) {
     char *res = dst;

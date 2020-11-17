@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../inc/header.h"
 
 char*mx_strtrim(const char*str){
     if(!str)

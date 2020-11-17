@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../inc/header.h"
 int mx_strlen(const char *s){
     int counter = 0;
     while (*s){

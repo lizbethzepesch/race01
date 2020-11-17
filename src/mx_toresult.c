@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../inc/header.h"
 
 void reverse(char *s){
      int i, j;

@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../inc/header.h"
 
 void mx_printres(int n1, int n2, char op, int res){
     mx_printint(n1);

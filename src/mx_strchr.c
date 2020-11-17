@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../inc/header.h"
 
 char *mx_strchr(const char *s, int c) {
     for (const char *i = s; *i; i++) {

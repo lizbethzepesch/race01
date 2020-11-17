@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../inc/header.h"
 
 int mx_howmuchq(char* str){
     int index = 0;

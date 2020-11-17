@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../inc/header.h"
 
 int mx_count_dig(int n) {
     int digits = 0; 

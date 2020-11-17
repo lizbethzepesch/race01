@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../inc/header.h"
 char *mx_strstr(const char *s1, const char *s2) {
     const char *p = s1;
     while (mx_strchr(p, s2[0]) != NULL) {

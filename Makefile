@@ -1,23 +1,10 @@
-all: copy PART little_clean
-
-copy:
-	mkdir obj
-	cp inc/*.h obj
-	cp src/*.c obj
+all: PART
 
 PART:
-	clang -std=c11 -Wall -Wextra -Werror -Wpedantic -o part_of_the_matrix obj/*.c
-
-little_clean:
-	rm -rf obj/
-
-uninstall:
-	rm -rf obj
-	rm minilibmx.a
+	clang -std=c11 -Wall -Wextra -Werror -Wpedantic src/*.c -o part_of_the_matrix 
 
 clean:
-	rm -rf *
+	rm -f part_of_the_matrix
 	
 reinstall:
-	make uninstall
-	make
+	clean PART
